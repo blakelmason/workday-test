@@ -1,0 +1,28 @@
+query Search($query: String!, $after: String){
+	search(query: $query, type: REPOSITORY, first: 10, after: $after) {
+		nodes {
+			... on Repository {
+				id
+				name
+				url
+				description
+				owner {
+					avatarUrl
+					... on User {
+						name
+						url
+					}
+					... on Organization {
+						name
+					}
+				}
+			}
+		}
+		pageInfo {
+			hasNextPage
+			endCursor
+			hasPreviousPage
+			startCursor
+		}
+	}
+}
