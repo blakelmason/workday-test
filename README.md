@@ -8,8 +8,10 @@ The app uses the Github GraphQL API. [An authorization token is required from Gi
 
 Run the following commands to start the app.
 
-1. `npm i`
-2. `npm start`
+1. `npm i` to install packages.
+2. `npm start` to start the app.
+
+The app is running on [http://localhost:3000](http://localhost:3000).
 
 ## Simplified Assumptions
 
