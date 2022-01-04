@@ -8,7 +8,7 @@ The app uses the Github GraphQL API. [An authorization token is required from Gi
 
 Run the following commands to start the app.
 
-1. `npm install`
+1. `npm i`
 2. `npm start`
 
 ## Simplified Assumptions
