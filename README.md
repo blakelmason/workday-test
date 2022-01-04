@@ -14,7 +14,6 @@ The app uses the Github GraphQL API. [An authorization token is required from Gi
 
 - No theming/styling is used. Most styling is done through inline styles or Material UI defaults.
 
-- Accessibility is omitted for sake of time as well.
+- Accessibility has been omitted.
 
-
-
+- Error handling has been omitted.
