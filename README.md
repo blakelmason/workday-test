@@ -5,6 +5,9 @@ The app uses the Github GraphQL API. [An authorization token is required from Gi
 `REACT_APP_GITHUB_TOKEN=your_token_here`
 
 ## Running the App
+
+Run the following commands to start the application.
+
 1. `npm install`
 2. `npm start`
 
